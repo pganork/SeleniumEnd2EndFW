@@ -1,17 +1,17 @@
 package com.pgEnterprise.pgCoding.ToolsDemo.WindowHandle;
 
 import TestBase.TestBase;
+import com.pgEnterprise.pgCoding.ToolsDemo.Log;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
-
 public class WIndowHandleTest extends TestBase {
 
 
@@ -23,6 +23,8 @@ public class WIndowHandleTest extends TestBase {
        init();
 
         driver=  launchBrowser(Param.getProperty("browser"),false);
+        System.out.println(Thread.currentThread().getContextClassLoader().getResource("log4j2.xml"));
+        Log.info("Chrome driver Launched");
 
         driver.get("https://testautomationpractice.blogspot.com/");
         driver.manage().window().maximize();

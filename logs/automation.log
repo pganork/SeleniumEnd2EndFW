@@ -1,0 +1,3 @@
+2025-06-25 18:59:42 INFO  com.pgEnterprise.pgCoding.ToolsDemo.Log - INFO log working
+2025-06-25 18:59:42 ERROR com.pgEnterprise.pgCoding.ToolsDemo.Log - ERROR log working
+2025-06-25 18:59:42 DEBUG com.pgEnterprise.pgCoding.ToolsDemo.Log - DEBUG log working

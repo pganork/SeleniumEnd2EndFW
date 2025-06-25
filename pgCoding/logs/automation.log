@@ -1,0 +1,5 @@
+2025-06-25 18:59:59 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ganno\AppData\Local\JetBrains\IdeaIE2022.2\temp-testng-customsuite.xml"
+2025-06-25 18:59:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ganno\AppData\Local\JetBrains\IdeaIE2022.2\temp-testng-customsuite.xml
+
+2025-06-25 19:00:03 INFO  com.pgEnterprise.pgCoding.ToolsDemo.Log - Chrome driver Launched
